@@ -7,3 +7,13 @@ It has been observed that the client often locks up on initalisation - https://m
 
 ## Dependencies
 
+This project has been created using:
+* CMake + gcc v9.2
+* Boost::filesystem
+* libevent (v2)
+* X11
+* pthread
+
+Please be aware that the CEF is pulled down using CMake's built-in ExternalProject_Add() functionality.
+
+The code has been compiled successfully on Ubuntu v20.04 with gcc v9.2
